@@ -124,7 +124,7 @@ for j in range(0,T_t,1):
            
                  
 plt.figure(figsize=(5, 10))
-plt.scatter(xpos,ypos, s=np.pi*(sigma*6/2)**2)
+plt.scatter(xpos,ypos, s=np.pi*(sigma*4/2)**2)
 plt.xlim(-Lx/2,Lx/2)
 plt.ylim(-Ly/2,Ly/2)
 plt.show()
