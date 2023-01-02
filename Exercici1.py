@@ -99,7 +99,7 @@ for l in range(0,len(delta),1):
                 y_new=y_new-L
                             
                         
-            if ypos[i]<-L/2:
+            if y_new<-L/2:
                         
                 y_new=y_new+L
     
